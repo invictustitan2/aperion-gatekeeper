@@ -1,6 +1,6 @@
 [project]
 name = "aperion-gatekeeper"
-version = "0.1.0"
+version = "1.2.1"
 description = "Unified Authentication & Authorization for Aperion Ecosystem"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -16,6 +16,13 @@ classifiers = [
     "Topic :: Security",
     "Typing :: Typed",
 ]
+
+[project.urls]
+Homepage = "https://github.com/invictustitan2/aperion-gatekeeper"
+Documentation = "https://github.com/invictustitan2/aperion-gatekeeper#readme"
+Repository = "https://github.com/invictustitan2/aperion-gatekeeper"
+"Bug Tracker" = "https://github.com/invictustitan2/aperion-gatekeeper/issues"
+
 dependencies = [
     "pydantic>=2.0.0",
     "cryptography>=42.0.4",  # CVE-2024-26130 fix
